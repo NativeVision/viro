@@ -45,7 +45,7 @@ var ViroButtonStateTypes;
     ViroButtonStateTypes["BTN_TYPE_HOVER"] = "hovering";
     ViroButtonStateTypes["BTN_TYPE_NORMAL"] = "normal";
     ViroButtonStateTypes["BTN_TYPE_CLICKED"] = "clicked";
-})(ViroButtonStateTypes = exports.ViroButtonStateTypes || (exports.ViroButtonStateTypes = {}));
+})(ViroButtonStateTypes || (exports.ViroButtonStateTypes = ViroButtonStateTypes = {}));
 /**
  * Composite controle for 2D button
  */
